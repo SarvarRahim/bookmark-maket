@@ -9,9 +9,13 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="site-header">
-      <div class="site-header__wrapper container">
-      <img class="logo-img" src="img/logo-bookmark.svg" alt="logo site" width="149" height="25">
+
+  <!-- HEADER SITE  -->
+  <header class="site-header">
+    <div class="site-header__wrapper container">
+      <a href="index.html">
+        <img class="logo-img" src="img/logo-bookmark.svg" alt="logo site" width="149" height="25">
+      </a>
       <nav class="site-nav">
         <ul class="nav__list">
           <li class="nav__item">
@@ -29,63 +33,207 @@
         </ul>
       </nav>
     </div>
-    </header>
+  </header>
 
-    <main class="site-content">
+  <main class="site-content">
 
-      <section class="site-hero">
-        <div class="hero-site__wrapper container">
-          <div class="hero-site__left">
+    <!-- SITE HERO PAGE  -->
+    <section class="site-hero">
+      <div class="hero-site__wrapper container">
+        <div class="hero-site__left">
           <h1 class="hero-site__title">A Simple Bookmark Manager</h1>
           <p class="hero-site__text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
           <a class="hero-site__link hero-site__link-chrome" href="#">Get it on Chrome</a>
           <a class="hero-site__link hero-site__link-firefox" href="#">Get it on Firefox</a>
         </div>
-          </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="extensions">
-        <div class="extensions-container">
-          <div class="extensions__header">
-            <h2 class="extensions__title">Download the extension</h2>
-            <p class="extensions__desc">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
-          </div>
+    <!-- FEATURES PAGE  -->
+    <div class="features">
+      <div class="container">
+        <header class="features-header">
+          <h2 class="features-header__title">Features</h2>
+          <p class="features-header__info">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </header>
 
-          <ul class="extensions__list">
-            <li class="extensions__item extension extension--chrome">
-              <div class="extension__top">
-              <h3 class="extension__heading">Add to Chrome</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-              <div class="extension__link-wrapper">
-                <a class="button button--block" href="#">Ad & Install extension</a>
-              </div>
-            </li>
+        <ul class="features-tabs">
+          <li class="features-tabs__item features-tabs__item--active">
+            <a class="features-tabs__link" href="#">Simple Bookmarking</a>
+          </li>
+          <li class="features-tabs__item">
+            <a class="features-tabs__link" href="#">Simple Bookmarking</a>
+          </li>
+          <li class="features-tabs__item">
+            <a class="features-tabs__link" href="#">Simple Bookmarking</a>
+          </li>
+        </ul>
+      </div>
 
-            <li class="extensions__item extension extension--firefox">
-              <div class="extension__top">
-              <h3 class="extension__heading">Add to Chrome</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-              <div class="extension__link-wrapper">
-                <a class="button button--block" href="#">Ad & Install extension</a>
-              </div>
-            </li>
-
-            <li class="extensions__item extension extension--opera">
-              <div class="extension__top">
-              <h3 class="extension__heading">Add to Chrome</h3>
-              <p class="extension__info">Minimum version 62</p>
-            </div>
-              <div class="extension__link-wrapper">
-                <a class="button button--block" href="#">Ad & Install extension</a>
-              </div>
-            </li>
-          </ul>
+      <div class="features-slide">
+        <div class="features-slide__wrapper container">
+          <h2 class="features-slide__title">Bookmark in one click</h2>
+          <p class="feartures-slide__text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+          <a class="features-slide__link" href="#">More info</a>
         </div>
-      </section>
+      </div>
 
+    </div>
 
-    </main>
+    <!-- EXTENSIONS DOWNLOAD PAGE  -->
+    <section class="extensions">
+      <div class="extensions-container">
+        <div class="extensions__header">
+          <h2 class="extensions__title">Download the extension</h2>
+          <p class="extensions__desc">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+        </div>
+
+        <ul class="extensions__list">
+          <li class="extensions__item extension extension--chrome">
+            <div class="extension__top">
+              <h3 class="extension__heading">Add to Chrome</h3>
+              <p class="extension__info">Minimum version 62</p>
+            </div>
+            <div class="extension__link-wrapper">
+              <a class="button button--block" href="#">Ad & Install extension</a>
+            </div>
+          </li>
+
+          <li class="extensions__item extension extension--firefox">
+            <div class="extension__top">
+              <h3 class="extension__heading">Add to Chrome</h3>
+              <p class="extension__info">Minimum version 62</p>
+            </div>
+            <div class="extension__link-wrapper">
+              <a class="button button--block" href="#">Ad & Install extension</a>
+            </div>
+          </li>
+
+          <li class="extensions__item extension extension--opera">
+            <div class="extension__top">
+              <h3 class="extension__heading">Add to Chrome</h3>
+              <p class="extension__info">Minimum version 62</p>
+            </div>
+            <div class="extension__link-wrapper">
+              <a class="button button--block" href="#">Ad & Install extension</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ PAGE  -->
+
+    <section class="faq page-section">
+      <div class="container">
+        <header class="page-section__header">
+          <h2 class="page-section__heading">Frequently Asked Questions</h2>
+          <p class="page-section__desc">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+        </header>
+
+        <ul class="faq__list">
+          <li class="faq__item qa">
+            <header class="qa__header">
+              <h3 class="qa__question">What is Bookmark?</h3>
+              <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+            </header>
+            <div class="qa__answer">
+              <p class="qa__answer-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+
+          <li class="faq__item qa">
+            <header class="qa__header">
+              <h3 class="qa__question">How can I request a new browser?</h3>
+              <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+            </header>
+            <div class="qa__answer">
+              <p class="qa__answer-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+
+          <li class="faq__item qa">
+            <header class="qa__header">
+              <h3 class="qa__question">Is there a mobile app?</h3>
+              <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+            </header>
+            <div class="qa__answer">
+              <p class="qa__answer-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+
+          <li class="faq__item qa">
+            <header class="qa__header">
+              <h3 class="qa__question">What about other Chromium browsers?</h3>
+              <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+            </header>
+            <div class="qa__answer">
+              <p class="qa__answer-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+                ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="features-slide__link--wrapper">
+        <a class="features-slide__link features-slide__link--blue" href="#">More info</a>
+      </div>
+      </div>
+    </section>
+
+    <!-- EMAIL FORM SECTION  -->
+
+    <section class="form-section">
+    <div class="container">
+      <header class="form-section__heading">
+        <p class="form-section__text">35,000+ ALREADY JOINED</p>
+        <h2 class="form-section__title">Stay up-to-date with what
+          we’re doing</h2>
+      </header>
+      <form class="form-email" action="https://echo.htmlacademy.ru" method="POST">
+        <label>
+        <input class="form-section__input" type="email" name="email" placeholder="Enter your email address" required>
+      </label>
+      <button class="form-email__button" type="submit">Contact Us</button>
+      </form>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer-site">
+    <div class="container">
+      <div class="footer-site__wrapper">
+      <img class="logo-img" src="img/logo-site-img.svg" alt="logo site white color" width="148" height="25">
+
+        <ul class="footer-site__list">
+          <li class="footer-site__item">
+            <a class="footer-site__link" href="#">Features</a>
+          </li>
+          <li class="footer-site__item">
+            <a class="footer-site__link" href="#">Pricing</a>
+          </li>
+          <li class="footer-site__item">
+            <a class="footer-site__link" href="#">Contanct</a>
+          </li>
+        </ul>
+
+        <div class="footer-site__social">
+          <a class="footer-site__social__l" href="facebook.com">
+          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="footer-site__social__link" fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#fff"/>
+          </svg>
+        </a>
+        <a href="twitter.com">
+          <svg width="24" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="footer-site__social__link" fill-rule="evenodd" clip-rule="evenodd" d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#fff"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
