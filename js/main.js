@@ -15,15 +15,17 @@ elsFeaturesTabsLink.forEach(function (link) {
 });
 
 var elsQA = document.querySelectorAll('.qa')
-var eslQAToggler = document.querySelectorAll('.qa__toggler')
 
-eslQAToggler.forEach(function (toggler){
+var elsQAToggler = document.querySelectorAll('.qa__toggler')
+
+
+elsQAToggler.forEach(function (toggler){
   toggler.addEventListener('click', function () {
     elsQA.forEach(function (qa) {
       qa.classList.remove('qa--active');
     });
 
-    toggler.closest('.qa').classList('qa--active');
+    toggler.closest('.qa').classList.add('qa--active');
   });
 });
 
