@@ -13,3 +13,17 @@ elsFeaturesTabsLink.forEach(function (link) {
     link.parentElement.classList.add('features-tabs__item--active');
   });
 });
+
+var elsQA = document.querySelectorAll('.qa')
+var eslQAToggler = document.querySelectorAll('.qa__toggler')
+
+eslQAToggler.forEach(function (toggler){
+  toggler.addEventListener('click', function () {
+    elsQA.forEach(function (qa) {
+      qa.classList.remove('qa--active');
+    });
+
+    toggler.closest('.qa').classList('qa--active');
+  });
+});
+
