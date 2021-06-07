@@ -290,7 +290,7 @@ body {
   padding-bottom: 200px;
   background-size:  1154px 540;
   background-repeat: no-repeat;
-  background-position: calc(-215% + 600px) 140px;
+  background-position: calc(50% - 600px) 140px;
   background-image: url(../img/features-bg.png);
 }
 
